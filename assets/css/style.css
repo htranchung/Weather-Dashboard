@@ -1,0 +1,57 @@
+header {
+    font-size: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, #5098e6, #200b4e);
+    color: white;
+}
+
+.citySearch {
+    font-size: 50px;
+}
+
+.searchForm {
+    display: inline;
+}
+
+button {
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   width: 258px;
+   margin-top: 20px;
+   background-color: #5098e6;
+}
+
+input {
+    border-radius: 6px;
+    font-size: 20px;
+    height: 42px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.cityForm, .cityForm1, .cityForm2,.cityForm3, .cityForm4,.cityForm5  {
+    margin-left: 90px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 6px;
+    box-shadow: 10px 5px 5px black;
+    background-color: grey;
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
+.searchedCity {
+    font-size: 40px;
+    text-align: center;
+}
+
+label, div {
+    margin-left: 15px;
+}
