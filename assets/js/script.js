@@ -25,7 +25,7 @@ var requestUrl = "https://api.openweathermap.org/data/2.5/forecast?q=";
 var requestedUrl2 = "&units=imperial&appid=c5935e4ad5a1b68a18a6b42b8d1e71ea";
 
 
-buttonSearch.addEventListener("click", function (event) {
+buttonSearch.addEventListener("click", function (event) { 
     event.preventDefault();
     var inputCityName = document.getElementById('cityName').value;
     fetch(requestUrl + inputCityName + requestedUrl2)
@@ -74,5 +74,10 @@ buttonSearch.addEventListener("click", function (event) {
             document.getElementById('icon5').src = "http://openweathermap.org/img/wn/" + data.list[34].weather[0].icon + '.png';
         })
     document.getElementById('searchForm').reset();
+    document.querySelector(".cityForm").style.visibility = "visible";
+    document.querySelector(".cityForm2").style.visibility = "visible";
+    document.querySelector(".cityForm3").style.visibility = "visible";
+    document.querySelector(".cityForm4").style.visibility = "visible";
+    document.querySelector(".cityForm5").style.visibility = "visible";
 })
 
