@@ -7,6 +7,7 @@ https://htranchung.github.io/Weather-Dashboard/
 ## Description
 
 - Weather Dashboard
+- Calls Weather API to fetch data
 - Shows Temp of searched city
 - Shows Wind in MPH of searched city
 - Shows Humidity % of searched city
